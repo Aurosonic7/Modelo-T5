@@ -1,0 +1,44 @@
+# Ignorar el entorno virtual
+myenv/
+.env
+*.env*
+
+# Archivos y carpetas específicas de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de configuración y logs
+*.log
+*.sqlite3
+*.db
+
+# Ignorar archivos de Jupyter Notebooks temporales
+.ipynb_checkpoints/
+
+# Archivos creados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de pruebas y cobertura
+.coverage
+*.cover
+.hypothesis/
+.tox/
+nosetests.xml
+coverage.xml
+*.egg-info/
+
+# Archivos de node_modules si llegas a integrar JS
+node_modules/
+
+# Ignorar dependencias descargadas de Hugging Face
+transformers_cache/
+datasets_cache/
