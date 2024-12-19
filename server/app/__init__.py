@@ -7,7 +7,7 @@ def create_app():
 
     # Crear instancia de Flask
     app = Flask(__name__)
-    app.config.from_object('config.DevelopmentConfig')
+    app.config.from_object('server.config.DevelopmentConfig')
 
     # Registrar rutas
     from .routes import example_routes
