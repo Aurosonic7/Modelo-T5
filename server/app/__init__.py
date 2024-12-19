@@ -13,4 +13,8 @@ def create_app():
     from .routes import example_routes
     app.register_blueprint(example_routes.bp)
 
+    # Integración del Blueprint model_routes
+    from server.app.routes.model_routes import bp as model_routes
+    app.register_blueprint(model_routes)
+
     return app
