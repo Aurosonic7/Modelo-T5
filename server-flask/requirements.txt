@@ -2,6 +2,6 @@ Flask==2.2.5
 Werkzeug==2.2.3
 gunicorn==20.1.0
 transformers==4.30.0
-torch==2.0.1
+torch
 sentencepiece==0.1.99
 python-dotenv==0.21.0
